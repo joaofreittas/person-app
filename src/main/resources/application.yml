@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: person-app
+    data:
+        mongodb:
+            uri: mongodb://localhost:27017/person-app
+services:
+    via-cep:
+        url: http://viacep.com.br
+        maxConnections: 200
+        maxConnectionsPerRoute: 50
+        connectionTimeout: 5000
+        socketTimeout: 5000
