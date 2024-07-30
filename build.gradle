@@ -46,6 +46,10 @@ dependencies {
     implementation group: 'io.github.openfeign', name: 'feign-httpclient', version: '13.1'
     implementation group: 'io.github.openfeign', name: 'feign-jackson', version: '13.1'
 
+    // Retry
+    implementation group: 'io.github.resilience4j', name: 'resilience4j-spring-boot2', version: '2.2.0'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: '3.3.1'
+
     // Swagger
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
 
