@@ -19,3 +19,6 @@ Este projeto visa exemplificar a aplicação de princípios de Resiliência no d
 
 ### Endpoints
 ![img.png](img.png)
+
+### Diagrama
+![img_1.png](img_1.png)
